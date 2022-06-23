@@ -1,7 +1,8 @@
 # MemoryGame
 
 Juego de memoria con tematica de Pokémon que tiene 3 niveles de dificultad con solo un minuto de tiempo
-
+<br>
+Se utilzo como recurso de imagenes la PokéAPI https://pokeapi.co/
 ## Inicio
 ![image](https://user-images.githubusercontent.com/51099442/175393162-f65a89e6-97ec-484c-be3c-ef3c5eeaf0f0.png) 
 ## Nivel 1 
@@ -12,4 +13,8 @@ Juego de memoria con tematica de Pokémon que tiene 3 niveles de dificultad con 
 ![image](https://user-images.githubusercontent.com/51099442/175393662-933dc264-1310-4d98-91c2-222a86871720.png)
 
 # Tenologias
-Angular
+- Angular
+- Prime Flex
+
+# Versión
+1.0
