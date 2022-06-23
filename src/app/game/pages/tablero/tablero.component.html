@@ -1,0 +1,20 @@
+<div class="container tablero-grid">
+    <app-info [movimientos]="movimientos" [parejas]="parejas" 
+        [levelNum]="levelNum" [primerMovimiento]="primerMovimiento" (finDeJuego)="getFinDeJuego($event)">
+    </app-info>
+    <div class="tablero animate__animated animate__fadeIn animate__lower animate__delay-1s" [ngStyle]="{
+        'grid-template-columns': columns,
+        'grid-template-rows': rows
+    }">
+        <div #carta id="{{pokemon.id}}" (click)="rotarImagen(pokemon.id)" class="carta no-match flex-column"
+            *ngFor="let pokemon of pokemones">
+            <div class="front" [ngStyle]="{'background-color': finDeJuego == true ? 'red' : '#fccc04'}">
+                <img src="../../../../assets/poquebola.png" alt="cartas">
+            </div>
+            <div class="back flex-column" [ngStyle]="{'background-color': finDeJuego == true ? 'red' : '#ffffff'}">
+                <img [src]="pokemon.imagen" alt="pokemon">
+                <p id="{{pokemon.nombre}}">{{ pokemon.nombre | titlecase }}</p>
+            </div>
+        </div>
+    </div>
+</div>

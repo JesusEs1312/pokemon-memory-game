@@ -1,0 +1,60 @@
+.tablero {
+    width: 100%;
+    padding: 25px 25px;
+    border-radius: 10px;
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    /* background-color: bisque; */
+    /* border: 5px solid #000; */
+}
+
+.carta{
+    width: 100%;
+    height: 200px;
+    /* background-color: #ffffff; */
+    /* border-radius: 5px; */
+    border: 5px solid #000000;
+    color: #000000;
+    position: relative;
+}
+
+.carta div {
+    align-items: center;
+    backface-visibility: hidden;
+    display: flex;
+    font-size: 13px; 
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    transition: 1s;
+    width: 100%;
+}
+
+.carta .front {
+    background-color: #fccc04;
+    transform: perspective(500px) rotateY(0deg);
+}
+  
+.carta .back {
+    background-color: #ffffff;
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.carta .rotateFront {
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.carta .rotateBack {
+    transform: perspective(500px) rotateY(360deg);
+}
+
+.tablero-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 150px auto;
+}
+
+img {
+    width: 130px;
+}

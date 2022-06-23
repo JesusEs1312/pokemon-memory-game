@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+    margin: 0px;
+    background-color: #53a3ab;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    /* padding-top: 100px; */
+    /* background-color: #cccccc; */
+    height: 100vh;
+}
+
+.img-titulo {
+    width: 600px;
+    margin-left: 80px;
+}
+
+.img-pikachu {
+    width: 250px;
+    padding-left: 10px;
+}
+
+.img-poquebola {
+    width: 100px;
+}

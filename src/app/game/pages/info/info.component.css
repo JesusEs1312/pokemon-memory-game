@@ -1,0 +1,33 @@
+.contenedor-info {
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns:  repeat(4, auto);
+    width: 1100px;
+    height: 150px;
+    align-items: center;
+    /* margin-bottom: 50px; */
+}
+
+label, a {
+    font-size: 13px;
+    padding: 30px 50px;
+    border-radius: 20px;
+    background-color: #fccc04;
+    border: 5px solid #000000;
+    /* color: #f71c1c;  */
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    background-color: #f71c1c;
+    color: #ffffff;
+}
+
+span {
+    font-size: 18px;
+}

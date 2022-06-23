@@ -1,0 +1,24 @@
+a {
+    padding: 25px 40px;
+    color: #000000;
+    background-color:#ffffff;
+    border: 5px solid #000000;
+    border-radius: 15px;
+    font-size: 20px;
+    height: 80px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color:#f71c1c;
+    color:#ffffff;
+    border: 5px solid #000000;
+}
+
+.inicio{
+    height: 100%;
+    /* background-color: #fff; */
+    padding-top: 80px;
+}
