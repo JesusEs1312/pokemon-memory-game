@@ -15,6 +15,7 @@ Se utilzo como recurso de imagenes la PokéAPI https://pokeapi.co/
 # Tenologias
 - Angular
 - Prime Flex
+- PokéAPI https://pokeapi.co/
 
 # Versión
 1.0
